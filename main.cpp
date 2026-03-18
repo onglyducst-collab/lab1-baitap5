@@ -2,11 +2,23 @@
 #include <string>
 using namespace std;
 
+/*
+    Cấu trúc hocsinh
+    Chức năng: lưu trữ thông tin của một học sinh gồm họ tên, điểm toán và điểm văn
+*/
+
 struct hocsinh{
     string hovaten;
     float diemtoan;
     float diemvan;
 };
+
+/*
+    Hàm main
+    Chức năng: nhập thông tin học sinh, tính điểm trung bình và in ra kết quả
+    Đầu vào: họ tên, điểm toán, điểm văn
+    Đầu ra: thông tin học sinh và điểm trung bình
+*/
 
 int main()
 {
